@@ -30,7 +30,7 @@
 			<?php if(get_theme_mod('site_logo')) {
 				echo '<img src="'. get_theme_mod('site_logo') . '" alt="'.get_bloginfo( 'name' ).'">';
 			} else { ?>
-			<img src="<?php bloginfo('template_url'); ?>/images/logo.png" alt="<?php bloginfo( 'name' ); ?>">
+			<img src="<?php bloginfo('template_url'); ?>/images/logo-new-black.jpg" alt="<?php bloginfo( 'name' ); ?>">
 			<?php } ?>
 		</a>
 				

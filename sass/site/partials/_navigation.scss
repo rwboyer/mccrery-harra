@@ -19,27 +19,31 @@ header.navigation {
   $navigation-submenu-width: 12em;
   $horizontal-bar-mode: $large-screen;
 
-  background-color: $navigation-background;
-  border-bottom: 1px solid darken($navigation-background, 10);
+  //background-color: $navigation-background;
+  //border-bottom: 1px solid darken($navigation-background, 10);
   min-height: $navigation-height;
   width: 100%;
   z-index: 999;
 
   .navigation-wrapper {
     @include clearfix;
-    @include outer-container;
+    @include outer-container($local-max-width: 100%);
     position: relative;
     z-index: 9999;
   }
 
   .logo {
-    float: left;
-    max-height: $navigation-height;
-    padding-left: $navigation-padding;
-    padding-right: 2em;
+    float: none;
+    display: block;
+    //max-height: $navigation-height;
+    padding: 0;
+    text-align: center;
+    background: white;
+    //padding-left: $navigation-padding;
+    //padding-right: 2em;
 
     img {
-      max-height: $navigation-height;
+      //max-height: $navigation-height;
       padding: 0.8em 0;
     }
   }
@@ -74,7 +78,7 @@ header.navigation {
     z-index: 9999999;
 
     @include media ($horizontal-bar-mode) {
-      float: left;
+      float: none;
     }
   }
 
@@ -94,9 +98,10 @@ header.navigation {
     }
 
     @include media ($horizontal-bar-mode) {
-      display: inline;
+      display: inline-block;
       margin: 0;
       padding: 0;
+      text-align: center;
     }
   }
 
