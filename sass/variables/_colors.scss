@@ -25,7 +25,8 @@ $light-gray: #DDD !default;
 $base-font-color: $dark-gray !default;
 
   
-$footer-background: desaturate(darken($action-color, 20%), 30%);
+$footer-background: #d4a738;
+//$footer-background: desaturate(darken($action-color, 20%), 30%);
 $footer-color: white;
 $footer-link-color: transparentize($footer-color, 0.6);
 $footer-disclaimer-color: transparentize($footer-color, 0.6);

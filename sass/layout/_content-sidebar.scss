@@ -1,6 +1,7 @@
 .wrap {
-	@include outer-container;
-	@include padding(40px null 40px null);
+	@include outer-container($local-max-width: $desktop-size);
+	@include padding(40px 2rem 40px 2rem);
+	background-color: rgba(255, 255, 255, 0.7);
 
 	.content-area {
 		@include span-columns(9);

@@ -20,6 +20,9 @@ Normalizing styles have been helped along thanks to the fine work of
 Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
 */
 
+/*
+Load fonts
+*/
 @import "fonts";
 
 @import "variables/variables";
@@ -38,6 +41,18 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
 @import "variables/breakpoints";
 @import "neat";
 @import "base"; 
+
+$heading-font-family: 'oregon_ldo_medium';
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'oregon_ldo_medium';
+}
+
 
 /*--------------------------------------------------------------
 # Accessibility

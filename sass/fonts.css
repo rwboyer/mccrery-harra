@@ -3,15 +3,15 @@
 
 
 @font-face {
-    font-family: 'oregon_ldo_mediumoblique';
-    src: url('oregon_ldo_medium_oblique-webfont.eot');
-    src: url('oregon_ldo_medium_oblique-webfont.eot?#iefix') format('embedded-opentype'),
-         url('oregon_ldo_medium_oblique-webfont.woff2') format('woff2'),
-         url('oregon_ldo_medium_oblique-webfont.woff') format('woff'),
-         url('oregon_ldo_medium_oblique-webfont.ttf') format('truetype'),
-         url('oregon_ldo_medium_oblique-webfont.svg#oregon_ldo_mediumoblique') format('svg');
+    font-family: 'oregon_ldo_medium';
+    src: url('font/oregon_ldo_medium_oblique-webfont.eot');
+    src: url('font/oregon_ldo_medium_oblique-webfont.eot?#iefix') format('embedded-opentype'),
+         url('font/oregon_ldo_medium_oblique-webfont.woff2') format('woff2'),
+         url('font/oregon_ldo_medium_oblique-webfont.woff') format('woff'),
+         url('font/oregon_ldo_medium_oblique-webfont.ttf') format('truetype'),
+         url('font/oregon_ldo_medium_oblique-webfont.svg#oregon_ldo_mediumoblique') format('svg');
     font-weight: normal;
-    font-style: normal;
+    font-style: oblique;
 
 }
 
@@ -20,12 +20,12 @@
 
 @font-face {
     font-family: 'oregon_ldo_medium_sinistralRg';
-    src: url('oregon_ldo_medium_sinistral-webfont.eot');
-    src: url('oregon_ldo_medium_sinistral-webfont.eot?#iefix') format('embedded-opentype'),
-         url('oregon_ldo_medium_sinistral-webfont.woff2') format('woff2'),
-         url('oregon_ldo_medium_sinistral-webfont.woff') format('woff'),
-         url('oregon_ldo_medium_sinistral-webfont.ttf') format('truetype'),
-         url('oregon_ldo_medium_sinistral-webfont.svg#oregon_ldo_medium_sinistralRg') format('svg');
+    src: url('font/oregon_ldo_medium_sinistral-webfont.eot');
+    src: url('font/oregon_ldo_medium_sinistral-webfont.eot?#iefix') format('embedded-opentype'),
+         url('font/oregon_ldo_medium_sinistral-webfont.woff2') format('woff2'),
+         url('font/oregon_ldo_medium_sinistral-webfont.woff') format('woff'),
+         url('font/oregon_ldo_medium_sinistral-webfont.ttf') format('truetype'),
+         url('font/oregon_ldo_medium_sinistral-webfont.svg#oregon_ldo_medium_sinistralRg') format('svg');
     font-weight: normal;
     font-style: normal;
 
@@ -35,13 +35,26 @@
 
 
 @font-face {
-    font-family: 'oregon_ldo_mediumregular';
-    src: url('oregon_ldo_medium-webfont.eot');
-    src: url('oregon_ldo_medium-webfont.eot?#iefix') format('embedded-opentype'),
-         url('oregon_ldo_medium-webfont.woff2') format('woff2'),
-         url('oregon_ldo_medium-webfont.woff') format('woff'),
-         url('oregon_ldo_medium-webfont.ttf') format('truetype'),
-         url('oregon_ldo_medium-webfont.svg#oregon_ldo_mediumregular') format('svg');
+    font-family: 'oregon_ldo_medium';
+    src: url('font/oregon_ldo_medium-webfont.eot');
+    src: url('font/oregon_ldo_medium-webfont.eot?#iefix') format('embedded-opentype'),
+         url('font/oregon_ldo_medium-webfont.woff2') format('woff2'),
+         url('font/oregon_ldo_medium-webfont.woff') format('woff'),
+         url('font/oregon_ldo_medium-webfont.ttf') format('truetype'),
+         url('font/oregon_ldo_medium-webfont.svg#oregon_ldo_mediumregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'bebasregular';
+    src: url('font/bebas___-webfont.eot');
+    src: url('font/bebas___-webfont.eot?#iefix') format('embedded-opentype'),
+         url('font/bebas___-webfont.woff2') format('woff2'),
+         url('font/bebas___-webfont.woff') format('woff'),
+         url('font/bebas___-webfont.ttf') format('truetype'),
+         url('font/bebas___-webfont.svg#bebasregular') format('svg');
     font-weight: normal;
     font-style: normal;
 

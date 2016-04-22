@@ -100,7 +100,7 @@ options.autoprefixer = {
 };
 
 gulp.task('sass', function() {
-  return gulp.src('./scss/styles.scss')
+  return gulp.src('./sass/style.scss')
     .pipe( plumber( { errorHandler: onError } ) )
     .pipe(sass(options.sass))
     .pipe(autoprefixer('last 2 version', 'safari 5', 'ie 8', 'ie 9', 'opera 12.1', 'ios 6', 'android 4',
@@ -130,7 +130,7 @@ gulp.task( 'watch', function() {
   // don't listen to whole js folder, it'll create an infinite loop
   gulp.watch( [ './js/**/*.js', '!./js/dist/*.js' ], [ 'scripts' ] )
  
-  gulp.watch( './scss/**/*.scss', ['sass'] );
+  gulp.watch( './sass/**/*.scss', ['sass'] );
 
   gulp.watch('./images/**/*', ['images']);
  
