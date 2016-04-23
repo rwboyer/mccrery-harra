@@ -853,6 +853,10 @@ body {
   clear: both;
   margin: 0 0 1.5em; }
 
+.featured-image img {
+  width: 100%;
+  height: auto; }
+
 article {
   -ms-word-wrap: break-word;
   word-wrap: break-word;
