@@ -1,6 +1,7 @@
 .footer {
 
   background: $footer-background;
+  font-family: $sans-serif;
   padding: ($base-spacing * 2) $gutter;
   width: 100%;
   @include margin(40px null null null);
@@ -11,6 +12,7 @@
 
     img {
       height: 3em;
+      filter: invert(1);
     }
   } 
 
@@ -88,11 +90,23 @@
     font-size: 0.9em;
     line-height: 1.5em;
     margin: auto;
-    max-width: 35em;
+    //max-width: 35em;
     text-align: center;
 
     a {
       color: $footer-disclaimer-color;
+    }
+  }
+  p.site-info{
+    &:hover,
+    &:focus{
+      color: $footer-disclaimer-color;
+    }
+  }
+  p.site-info a{
+    &:hover,
+    &:focus{
+      color: $footer-color;
     }
   }
 }

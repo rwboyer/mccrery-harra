@@ -19,7 +19,7 @@
 			<?php if(get_theme_mod('site_logo')) {
 				echo '<img src="'. get_theme_mod('site_logo') . '" alt="'.get_bloginfo( 'name' ).'">';
 			} else { ?>
-			<img src="<?php bloginfo('template_url'); ?>/images/logo.png" alt="<?php bloginfo( 'name' ); ?>">
+			<img src="<?php bloginfo('template_url'); ?>/images/logo-black.png" alt="<?php bloginfo( 'name' ); ?>">
 			<?php } ?>
 		
 	  </div>
@@ -33,7 +33,9 @@
 	  <hr>
 
 	  <p class="site-info">
-	  	<?php echo get_theme_mod('footer_copyright_text')  ?>		
+      ©2016 MCCRERY AND HARRA FUNERAL HOME AND CREMATORY - ALL RIGHTS RESERVED<br>
+      Design by <a href="http://2fish.com">
+        <img src="<?php bloginfo('template_url'); ?>/images/2fish.png" alt="2fish"></a>
 		</p><!-- .site-info -->
 	</footer>
 

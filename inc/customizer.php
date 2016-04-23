@@ -239,7 +239,7 @@ function hooch_sanitize_hex_color( $hex_color, $setting ) {
  * @return string Sanitized HTML.
  */
 function hooch_sanitize_html( $html ) {
-	return wp_filter_post_kses( $html );
+	return $html ;
 }
 
 /**
