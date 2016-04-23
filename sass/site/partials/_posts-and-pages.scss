@@ -1,8 +1,16 @@
 body{
+  background-color: #d4a738;
+}
+
+#splash{
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 600px;
   background:  
-    linear-gradient( rgba(0,0,0,0) 20%, #d4a738,  #d4a738 , #d4a738),
+    linear-gradient( rgba(0,0,0,0) 20%, #d4a738),
      url('images/background.jpg') no-repeat top center;
-  background-size: 100% auto;
+  z-index: -1;
 }
 
 .sticky {

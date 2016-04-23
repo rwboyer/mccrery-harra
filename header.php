@@ -64,7 +64,8 @@
 	</header>
 
 
-	<div id="content" class="site-content">
+	<div id="splash" class="splash"></div>
+  <div id="content" class="site-content">
 
 
 

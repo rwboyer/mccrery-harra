@@ -11,7 +11,7 @@
 
 ?>
 
-	</div><!-- #content -->
+  </div><!-- #content -->
 
 	<footer class="footer" role="contentinfo">
 	  <div class="footer-logo">
