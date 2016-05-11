@@ -15,11 +15,12 @@
 get_header(); ?>
 
 <div class="wrap">
-	<div id="primary" class="content-area">
+	<div id="primary" class="content-home">
 		<main id="main" class="site-main" role="main">
 
 		<?php if ( have_posts() ) : ?>
-			<?php if ( is_home() && ! is_front_page() ) : ?>
+<header><h1>Education <span>&</span> Etiquette</h1></header>
+			<?php if ( is_home() && is_front_page() ) : ?>
 				<header>
 					<h1 class="page-title screen-reader-text"><?php single_post_title(); ?></h1>
 				</header>
@@ -50,8 +51,6 @@ get_header(); ?>
 
 		</main><!-- #main -->
 	</div><!-- #primary -->
-
-<?php get_sidebar(); ?>
 
 </div> <!-- .wrap -->
 
